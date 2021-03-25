@@ -1,5 +1,5 @@
 <?php
-// require_once "_config/config.php";
+ require_once "_config/config.php";
 //  IF (!isset($_SESSION["login"])) {    
 //   echo"<script>window.location='".base_url('auth/login.php')."';</script>";
 //  }else{ 

@@ -13,7 +13,7 @@ if (mysqli_connect_errno()){
 
 //fungsi base url
 function base_url($url= null){
-    $base_url = "http://localhost/php_dasar/4_upload";
+    $base_url = "http://localhost:8080/origin";
     if($url != null){
         return $base_url."/".$url;
 
