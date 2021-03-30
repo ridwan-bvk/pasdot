@@ -25,7 +25,7 @@
             <script src="<?=base_url('_asset/js/bootstrap.min.js')?>"></script>
         <div id="wrapper">
             <!-- Sidebar -->
-            <div id="sidebar-wrapper" class="col-xs-col-xs-offset-12">
+            <div id="sidebar-wrapper" class="col-xs-col-xs-offset-12" style ="width:200px;">
                 <ul class="sidebar-nav ">
                     <li class="sidebar-brand">
                     <a href="<?=base_url('dasboard/');?>" ><span class="text-primary">e-pasirdoton</span>
@@ -57,4 +57,4 @@
     <!-- /#sidebar-wrapper -->
 
    
-                    
+ 
