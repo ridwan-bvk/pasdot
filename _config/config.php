@@ -13,7 +13,8 @@ if (mysqli_connect_errno()){
 
 //fungsi base url
 function base_url($url= null){
-    $base_url = "http://localhost/pasdot";
+    // $base_url = "http://localhost/pasdot";
+     $base_url = "http://localhost:8080/pasdot";
     if($url != null){
         return $base_url."/".$url;
 
