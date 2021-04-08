@@ -31,7 +31,7 @@ include_once "../header.php";
             </thead>
             <tbody>
                 <?php
-                    $batas= 1;
+                    $batas= 5;
                     $hal= @$_GET['hal'];
                     if(empty($hal)){
                         $posisi = 0;
@@ -65,9 +65,9 @@ include_once "../header.php";
                                     <td><?=$data["nama_warga"] ?></td>
                                     <td><?=$data["alamat"] ?></td>
                                     <td class="text-center">
-                                        <a href="edit.php?id=<?=$data["id_warga"]?>" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i></a>
+                                        <a href="edit.php?id=<?=$data["id_key"]?>" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i></a>
 
-                                        <a href="del.php?id=<?=$data["id_warga"]?>" class="btn btn-danger btn-xs" onclick="return confirm('Yakin Akan Menghapus Data')"><i class="glyphicon glyphicon-trash"></i></a>
+                                        <a href="del.php?id=<?=$data["id_key"]?>" class="btn btn-danger btn-xs" onclick="return confirm('Yakin Akan Menghapus Data')"><i class="glyphicon glyphicon-trash"></i></a>
                                     </td>
                                 </tr>
                         
